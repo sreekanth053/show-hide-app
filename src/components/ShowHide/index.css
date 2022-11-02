@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to left, #fc63a7, #fa7257);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-weight: 500;
+  font-family: Roboto;
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn-1 {
+  margin-left: 50px;
+  color: #fc63a7;
+  height: 35px;
+  max-width: 200px;
+  border-radius: 10px;
+  border-width: 0px;
+}
+.btn-2 {
+  margin-left: 50px;
+  height: 35px;
+  color: #fc63a7;
+  max-width: 200px;
+  border-radius: 10px;
+  border-width: 0px;
+}
+.firstName {
+  height: 120px;
+  width: 200px;
+  background-color: #ffffff;
+  background-size: cover;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.lastName {
+  height: 120px;
+  width: 200px;
+  background-color: #ffffff;
+  background-size: cover;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
